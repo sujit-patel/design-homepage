@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* header menu desing */
+#container #header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+#container #header .menu {
+    width: 40%;
+    display: block;
+    padding-top: 10px;
+}
+
+#container #header .menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+#container #header .menu ul li {
+    list-style: none;
+
+}
+
+#container #header .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    background-color: rgb(58, 58, 58, 0.6);
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#container #header .menu ul li a:hover {
+    color: blue;
+}
+
+
+/* header logo design */
+#container #header .logo {
+    padding: 10px;
+    padding-left: 40px;
+    width: 20%;
+
+}
+
+#container #header .logo img {
+    width: 175px;
+}
+
+#container #header .shop-logo {
+    padding-right: 40px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container #header .shop-logo img {
+    width: 40px;
+}
+
+/* body part design */
+#container .body-part {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+/* text-part desing  */
+#container .body-part .containt-part {
+    width: 50%;
+    color: white;
+}
+
+#container .body-part .containt-part h2 {
+    font-size: 60px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+#container .body-part .containt-part h2 span {
+    font-weight: normal;
+    color: rgb(255, 237, 173);
+}
+
+#container .body-part .containt-part p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+/* coman btn-part design */
+#container .body-part .containt-part .btn-part {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container .body-part .containt-part .btn-part li {
+    list-style: none;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+#container .body-part .containt-part .btn-part li a {
+    text-decoration: none;
+    font-size: 35px;
+    color: blue;
+}
+
+/* btn part */
+#container .body-part .containt-part .btn-part .oder-btn {
+    background-color: rgb(255, 242, 0);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+#container .body-part .containt-part .btn-part .oder-btn:hover {
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+}
+
+#container .body-part .containt-part .btn-part .app-btn {
+    background-color: rgb(27, 26, 26);
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#container .body-part .containt-part .btn-part .app-btn:hover {
+    color: white;
+    background-color: #332f2f;
+    font-weight: bold;
+}
+
+
+/* big-image desin */
+#container .body-part .photo-part {
+    width: 50%;
+    height: 95%;
+    padding-left: 25px;
+    display: flex;
+
+}
